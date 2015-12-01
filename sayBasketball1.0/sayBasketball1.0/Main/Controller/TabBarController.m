@@ -10,7 +10,7 @@
 #import "TabBarController.h"
 #import "ChatTableViewController.h"
 #import "NewsTableViewController.h"
-#import "VideoTableViewController.h"
+#import "VideoViewController.h"
 #import "MyTableViewController.h"
 #import "myNavigationViewController.h"
 #import "TabBar.h"
@@ -50,7 +50,7 @@
     NewsTableViewController * news = [[NewsTableViewController alloc]init];
     [self setupChildViewController:news title:@"新闻" imageName:nil selectedImageName:nil];
     
-    VideoTableViewController * video = [[VideoTableViewController alloc]init];
+    VideoViewController * video = [[VideoViewController alloc]init];
     [self setupChildViewController:video title:@"视频" imageName:nil selectedImageName:nil];
     
     MyTableViewController * my = [[MyTableViewController alloc]init];

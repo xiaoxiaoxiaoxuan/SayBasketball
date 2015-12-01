@@ -9,7 +9,7 @@
 #import "TableBarViewController.h"
 #import "ChatTableViewController.h"
 #import "NewsTableViewController.h"
-#import "VideoTableViewController.h"
+#import "VideoViewController.h"
 #import "MyTableViewController.h"
 @interface TableBarViewController ()
 
@@ -26,7 +26,7 @@
 //    UINavigationController * newsNC = [[UINavigationController alloc]initWithRootViewController:news];
     news.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"新闻" image:nil tag:102];
     
-    VideoTableViewController * video = [[VideoTableViewController alloc]init];
+    VideoViewController * video = [[VideoViewController alloc]init];
 //    UINavigationController * videoNC = [[UINavigationController alloc]initWithRootViewController:video];
     video.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"视频" image:nil tag:103];
     

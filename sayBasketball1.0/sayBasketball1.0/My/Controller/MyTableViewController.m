@@ -8,6 +8,7 @@
 
 #import "MyTableViewController.h"
 
+
 @interface MyTableViewController ()
 
 @end
@@ -19,6 +20,7 @@
     
   self.navigationItem.title = @"我的";
     self.view.backgroundColor = [UIColor yellowColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {

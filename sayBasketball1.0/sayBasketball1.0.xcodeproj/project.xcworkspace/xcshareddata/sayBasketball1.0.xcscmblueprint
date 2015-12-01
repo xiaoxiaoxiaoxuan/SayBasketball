@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "36BAFB53006C5F89FD2F1446B3ADAE0AA02BA371",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "60b5c825-4fb8-4975-a861-cdc06fd4b25b++1073" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "60b5c825-4fb8-4975-a861-cdc06fd4b25b++1073" : 0,
+    "36BAFB53006C5F89FD2F1446B3ADAE0AA02BA371" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DADF0795-2904-4073-8364-665473CEC36E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "60b5c825-4fb8-4975-a861-cdc06fd4b25b++1073" : "say\/sayBasketball1.0\/sayBasketball1.0\/Tools\/ThirdPart\/MJRefresh\/",
+    "36BAFB53006C5F89FD2F1446B3ADAE0AA02BA371" : "say\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "sayBasketball1.0",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "sayBasketball1.0\/sayBasketball1.0.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/youngxiaoyi\/sayBasketball.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "36BAFB53006C5F89FD2F1446B3ADAE0AA02BA371"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/115.28.227.1",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60b5c825-4fb8-4975-a861-cdc06fd4b25b++1073"
+    }
+  ]
+}
