@@ -38,8 +38,13 @@
     self.cellImageView.image = [UIImage imageNamed:@"zhanweitu.jpg"];
     [self addSubview:self.cellImageView];
     
+    UIImageView *videoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(30, 20, 40, 40)];
+    [self.cellImageView addSubview:videoImageView];
+    videoImageView.image = [UIImage imageNamed:@"video.png"];
+    
     // titleLabel
     self.titleLabel = [[UILabel alloc] init];
+    self.titleLabel.textColor = [UIColor colorWithRed:0.498f green:0.498f blue:0.498f alpha:1.00f];
     // self.titleLabel.backgroundColor = [UIColor yellowColor];
     self.titleLabel.numberOfLines = 0;
     [self addSubview: self.titleLabel];
@@ -48,7 +53,7 @@
     self.timeLabel = [[UILabel alloc] init];
     // self.timeLabel.backgroundColor = [UIColor yellowColor];
     self.timeLabel.font = [UIFont systemFontOfSize:14.0f];
-    self.timeLabel.tintColor = [UIColor grayColor];
+    self.timeLabel.textColor = [UIColor grayColor];
     [self addSubview:self.timeLabel];
     
 }
@@ -74,6 +79,8 @@
     }else{
         [self.cellImageView sd_setImageWithURL:[NSURL URLWithString:newVideoModel.picUrlString]];
     }
+    
+    
     
     self.titleLabel.text = newVideoModel.title;
     // 判断多长时间前

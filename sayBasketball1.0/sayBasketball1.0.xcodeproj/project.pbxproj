@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C201E4DE1C0BF0CB0042494B /* JingdianVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C201E4DD1C0BF0CB0042494B /* JingdianVideoModel.m */; settings = {ASSET_TAGS = (); }; };
 		C201E4E11C0BF3B30042494B /* JingdianVideoHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C201E4E01C0BF3B30042494B /* JingdianVideoHandle.m */; settings = {ASSET_TAGS = (); }; };
+		C206A1881C0D392C00371E52 /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = C206A1871C0D392C00371E52 /* video.png */; settings = {ASSET_TAGS = (); }; };
 		C23B203D1C0C7EA500A627F8 /* 1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C23B201F1C0C7EA500A627F8 /* 1.tiff */; settings = {ASSET_TAGS = (); }; };
 		C23B203E1C0C7EA500A627F8 /* 2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C23B20201C0C7EA500A627F8 /* 2.tiff */; settings = {ASSET_TAGS = (); }; };
 		C23B203F1C0C7EA500A627F8 /* 3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C23B20211C0C7EA500A627F8 /* 3.tiff */; settings = {ASSET_TAGS = (); }; };
@@ -78,6 +79,7 @@
 		C201E4DD1C0BF0CB0042494B /* JingdianVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingdianVideoModel.m; sourceTree = "<group>"; };
 		C201E4DF1C0BF3B30042494B /* JingdianVideoHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JingdianVideoHandle.h; path = sayBasketball1.0/Video/Model/JingdianVideoHandle.h; sourceTree = SOURCE_ROOT; };
 		C201E4E01C0BF3B30042494B /* JingdianVideoHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JingdianVideoHandle.m; path = sayBasketball1.0/Video/Model/JingdianVideoHandle.m; sourceTree = SOURCE_ROOT; };
+		C206A1871C0D392C00371E52 /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video.png; sourceTree = "<group>"; };
 		C23B201F1C0C7EA500A627F8 /* 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 1.tiff; sourceTree = "<group>"; };
 		C23B20201C0C7EA500A627F8 /* 2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 2.tiff; sourceTree = "<group>"; };
 		C23B20211C0C7EA500A627F8 /* 3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 3.tiff; sourceTree = "<group>"; };
@@ -206,6 +208,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C206A1841C0D346200371E52 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C2F199EA1C07F3FC0013ECD4 /* zhanweitu.jpg */,
+				C206A1871C0D392C00371E52 /* video.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		C23B201E1C0C7EA500A627F8 /* MJRefresh */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,8 +275,8 @@
 		C2E53B2A1C045480008D9A9B /* sayBasketball1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				C206A1841C0D346200371E52 /* Image */,
 				C2E53B411C045684008D9A9B /* App */,
-				C2E53B461C045684008D9A9B /* Image */,
 				C2E53B471C045684008D9A9B /* Main */,
 				C2E53B421C045684008D9A9B /* Chat */,
 				C2E53B4B1C045684008D9A9B /* My */,
@@ -334,14 +345,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		C2E53B461C045684008D9A9B /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				C2F199EA1C07F3FC0013ECD4 /* zhanweitu.jpg */,
-			);
-			path = Image;
 			sourceTree = "<group>";
 		};
 		C2E53B471C045684008D9A9B /* Main */ = {
@@ -635,6 +638,7 @@
 				C2E53B3A1C045480008D9A9B /* LaunchScreen.storyboard in Resources */,
 				C2E53B371C045480008D9A9B /* Assets.xcassets in Resources */,
 				C23B203E1C0C7EA500A627F8 /* 2.tiff in Resources */,
+				C206A1881C0D392C00371E52 /* video.png in Resources */,
 				C23B20511C0C89DD00A627F8 /* 牛2.tiff in Resources */,
 				C2E53B321C045480008D9A9B /* sayBasketball1.0-Prefix.pch in Resources */,
 				C2F199EB1C07F3FC0013ECD4 /* zhanweitu.jpg in Resources */,

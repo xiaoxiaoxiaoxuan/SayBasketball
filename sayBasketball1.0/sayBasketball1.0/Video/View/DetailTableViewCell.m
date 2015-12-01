@@ -34,9 +34,14 @@
     self.cellImageView.image = [UIImage imageNamed:@"zhanweitu.jpg"];
     [self addSubview:self.cellImageView];
     
+    UIImageView *videoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(30, 20, 40, 40)];
+    [self.cellImageView addSubview:videoImageView];
+    videoImageView.image = [UIImage imageNamed:@"video.png"];
+    
     // titleLabel
     self.titleLabel = [[UILabel alloc] init];
     // self.titleLabel.backgroundColor = [UIColor yellowColor];
+    self.titleLabel.textColor = [UIColor colorWithRed:0.498f green:0.498f blue:0.498f alpha:1.00f];
     self.titleLabel.numberOfLines = 0;
     [self addSubview: self.titleLabel];
 }

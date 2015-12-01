@@ -26,6 +26,7 @@
     
     [self p_setupView];
     
+    
     [self.tableView registerClass:[DetailTableViewCell class] forCellReuseIdentifier:@"cell"];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishLoadDataAction) name:@"loadDetailData" object:nil];
