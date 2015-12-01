@@ -39,7 +39,7 @@
     self.webView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.webView];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"收藏" style:(UIBarButtonItemStyleDone) target:self action:@selector(shoucangAction:)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"刷新" style:(UIBarButtonItemStyleDone) target:self action:@selector(shuaxinAction:)];
     
     
 }
@@ -61,9 +61,10 @@
     NSLog(@"加载出错");
 }
 
-- (void)shoucangAction:(UIBarButtonItem *)sender
+- (void)shuaxinAction:(UIBarButtonItem *)sender
 {
-    
+    NSLog(@"123");
+    [self.webView reload];
 }
 
 - (void)didReceiveMemoryWarning {
